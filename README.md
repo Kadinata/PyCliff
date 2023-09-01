@@ -5,7 +5,7 @@ Lightweight Python CLI Framework
 
 Create a Python CLI in 3 easy steps!
 
-```
+```python
 from pycliff import Console
 
 ## 1. Create a console.
