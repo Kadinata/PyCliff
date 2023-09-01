@@ -14,7 +14,7 @@ con = Console(greeting="Hello, there!\n===============\n")
 ## 2. Register one or more commands
 @con.register('myCommand')
 def command(*args, **kwargs):
-    con.display('You've just executed a command')
+    con.display("You've just executed a command")
 
 ## 3. Start the console
 con.run()
